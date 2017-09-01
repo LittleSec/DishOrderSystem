@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1973CD7E-D44F-43C9-BB7E-EAEEB6BC6FE1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>version0._1</RootNamespace>
+    <AssemblyName>version0.1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLoginForm.Designer.cs">
+      <DependentUpon>AdminLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlOrderClass.cs" />
+    <Compile Include="CustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="修改职工信息Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="修改职工信息Form.Designer.cs">
+      <DependentUpon>修改职工信息Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="修改菜谱Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="修改菜谱Form.Designer.cs">
+      <DependentUpon>修改菜谱Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="增加菜谱Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="增加菜谱Form.Designer.cs">
+      <DependentUpon>增加菜谱Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员点菜Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员点菜Form.Designer.cs">
+      <DependentUpon>管理员点菜Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="菜谱Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="菜谱Form.Designer.cs">
+      <DependentUpon>菜谱Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="房间和餐桌信息Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="房间和餐桌信息Form.Designer.cs">
+      <DependentUpon>房间和餐桌信息Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WelcomeForm.Designer.cs">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="职工信息Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="职工信息Form.Designer.cs">
+      <DependentUpon>职工信息Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="订单管理Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="订单管理Form.Designer.cs">
+      <DependentUpon>订单管理Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="评价Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="评价Form.Designer.cs">
+      <DependentUpon>评价Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="雇佣厨师或服务员Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="雇佣厨师或服务员Form.Designer.cs">
+      <DependentUpon>雇佣厨师或服务员Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="顾客管理Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="顾客管理Form.Designer.cs">
+      <DependentUpon>顾客管理Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="顾客选桌并点菜Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="顾客选桌并点菜Form.Designer.cs">
+      <DependentUpon>顾客选桌并点菜Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="预定Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="预定Form.Designer.cs">
+      <DependentUpon>预定Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLoginForm.resx">
+      <DependentUpon>AdminLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerForm.resx">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="修改职工信息Form.resx">
+      <DependentUpon>修改职工信息Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="修改菜谱Form.resx">
+      <DependentUpon>修改菜谱Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="增加菜谱Form.resx">
+      <DependentUpon>增加菜谱Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员点菜Form.resx">
+      <DependentUpon>管理员点菜Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="菜谱Form.resx">
+      <DependentUpon>菜谱Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="房间和餐桌信息Form.resx">
+      <DependentUpon>房间和餐桌信息Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeForm.resx">
+      <DependentUpon>WelcomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="职工信息Form.resx">
+      <DependentUpon>职工信息Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="订单管理Form.resx">
+      <DependentUpon>订单管理Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="评价Form.resx">
+      <DependentUpon>评价Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="雇佣厨师或服务员Form.resx">
+      <DependentUpon>雇佣厨师或服务员Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="顾客管理Form.resx">
+      <DependentUpon>顾客管理Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="顾客选桌并点菜Form.resx">
+      <DependentUpon>顾客选桌并点菜Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="预定Form.resx">
+      <DependentUpon>预定Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
