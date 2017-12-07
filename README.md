@@ -1,15 +1,16 @@
-# DishOrderSystem£¨Êý¾Ý¿â¿Î³ÌÉè¼Æ£¬²ÍÒûµã²ËÏµÍ³£¨´óÈýÉÏÑ§ÆÚ£©£¬winform£©
+# DishOrderSystemï¼ˆæ•°æ®åº“è¯¾è®¾ï¼Œé¤é¥®ç‚¹èœç³»ç»Ÿï¼Œwinformï¼‰
 
 >1st update in 2017.09.10, Friday
 
-## ´óÌåÇé¿ö
-1. IDE£ºVS 2013 community, sql server 2008, Windows 10¼ÒÍ¥ÖÐÎÄ°æ
-2. ÇÐÎðÔÚÎ´ÅäÖÃµÄÊý¾Ý¿âµÄÇé¿öÏÂÖ±½ÓÔËÐÐ.exe¡£ÅäÖÃÊý¾Ý¿â¿ÉÒÔÖ±½Óµ¼Èë¸ùÄ¿Â¼ÏÂµÄ`µã²ËÏµÍ³.bacpac`£¬È»ºóÔÚÅäÖÃÎÄ¼þÐÞ¸ÄÁ¬½Ó×Ö·û´®¼´¿É¡£
-3. ÊµÑé±¨¸æµÄ²àÖØµãÊÇÊý¾Ý¿âµÄÑ§Ï°£¬Òò´Ë¼ÇÂ¼ÕâÒ»¿éµÄÄÚÈÝ½Ï¶à£¬¶ø¼ÇÂ¼´úÂëÊµÏÖÏà¶Ô½ÏÉÙ¡£
+>2nd update in 2017.12.07, Thursday
 
-## µ±Ê±ÒÅÁôµÄÈÏÎªÓ¦µ±ÊµÏÖµ«Ã»ÊµÏÖµÄ¹¦ÄÜ
-1. ²»ÔÊÐíÐÞ¸ÄÐÔ±ð¡£
-2. Èç¹û·þÎñÔ±»ò³øÊ¦ÔÚ¹¤×÷£¬Ó¦µ±¾Ü¾øÐÞ¸Ä¹¤ºÅ¡¢ÐÕÃû¡¢·Ö¹¤¡£
-1. Ó¦µ±¶¨ÆÚ¼ì²é²ËÆ×ÖÐµÄ²ËµÄÖÖÀàÊÇ·ñÔÚ³øÊ¦·Ö¹¤ÖÐ¶¼ÓÐ¡£
-1. ¿ÍÈË±íÓ¦¸ÃÉèÒ»¸öid£¬²»ÄÜÓÃtellphone£¬ÒòÎªÖ÷ÂëÀíÓ¦²»ÄÜÐÞ¸Ä£¬µ«tellphoneÊÇ¿ÉÒÔÐÞ¸ÄµÄ¡£
-1. CustomerForm½áÊøºóÒª×¢ÒâÇå¿ÕlistboxÄÚÈÝºÍÈÃtextbox²»ÒªÔÙÖ»¶ÁÁË£¬²»È»Ö®ºóÃ»·¨¼ÌÐøÊäÈë
+## å¤§ä½“æƒ…å†µ
+1. IDEï¼šVS 2013 community, sql server 2008, Windows 10å®¶åº­ä¸­æ–‡ç‰ˆ
+2. åˆ‡å‹¿åœ¨æœªé…ç½®çš„æ•°æ®åº“çš„æƒ…å†µä¸‹ç›´æŽ¥è¿è¡Œ.exeã€‚é…ç½®æ•°æ®åº“å¯ä»¥ç›´æŽ¥å¯¼å…¥æ ¹ç›®å½•ä¸‹çš„`ç‚¹èœç³»ç»Ÿ.bacpac`ï¼Œç„¶åŽåœ¨é…ç½®æ–‡ä»¶ä¿®æ”¹è¿žæŽ¥å­—ç¬¦ä¸²å³å¯ã€‚
+
+## å½“æ—¶é—ç•™çš„è®¤ä¸ºåº”å½“å®žçŽ°ä½†æ²¡å®žçŽ°çš„åŠŸèƒ½
+1. ä¸å…è®¸ä¿®æ”¹æ€§åˆ«ã€‚
+2. å¦‚æžœæœåŠ¡å‘˜æˆ–åŽ¨å¸ˆåœ¨å·¥ä½œï¼Œåº”å½“æ‹’ç»ä¿®æ”¹å·¥å·ã€å§“åã€åˆ†å·¥ã€‚
+1. åº”å½“å®šæœŸæ£€æŸ¥èœè°±ä¸­çš„èœçš„ç§ç±»æ˜¯å¦åœ¨åŽ¨å¸ˆåˆ†å·¥ä¸­éƒ½æœ‰ã€‚
+1. å®¢äººè¡¨åº”è¯¥è®¾ä¸€ä¸ªidï¼Œä¸èƒ½ç”¨tellphoneï¼Œå› ä¸ºä¸»ç ç†åº”ä¸èƒ½ä¿®æ”¹ï¼Œä½†tellphoneæ˜¯å¯ä»¥ä¿®æ”¹çš„ã€‚
+1. CustomerFormç»“æŸåŽè¦æ³¨æ„æ¸…ç©ºlistboxå†…å®¹å’Œè®©textboxä¸è¦å†åªè¯»äº†ï¼Œä¸ç„¶ä¹‹åŽæ²¡æ³•ç»§ç»­è¾“å…¥
