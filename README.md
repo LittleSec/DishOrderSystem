@@ -22,19 +22,19 @@
 1. bacpac-->dacpac，好处就是不需要使用sql server managerment studio来导入数据库了，vs自带能导入dacpac文件。
 2. 导入数据库：
     + SQL Server对象资源管理器，如下图：
-        ![SQL Server对象资源管理器](.pic/1.png)
+        ![SQL Server对象资源管理器](./pic/1.png)
     + 选择希望导入的sql Server服务器并展开
     + 右击“数据库”
     + 发布数据层应用程序，按下图完成配置：
-    + ![发布数据层应用程序](.pic/2.png)
+    + ![发布数据层应用程序](./pic/2.png)
 3. 连接字符串：
     + 解决方案资源管理器
     + 展开项目
     + 双击Properties
     + 点击设置
     + 有一个connDateString的连接字符串，移动到右边“值”那一栏的右边有三个点，点击后按下图完成配置：
-    + ![配置连接字符串](.pic/3.png)
+    + ![配置连接字符串](./pic/3.png)
 4. 数据库ER图：
-    ![ER图](.pic/ER.jpg)
+    ![ER图](./pic/ER.jpg)
 
 
